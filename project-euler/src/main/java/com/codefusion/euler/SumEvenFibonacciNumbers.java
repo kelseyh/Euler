@@ -1,5 +1,8 @@
 package com.codefusion.euler;
 
+/**
+ * Solution for Project Euler problem 2.
+ */
 public class SumEvenFibonacciNumbers {
 
     public long sumEvenNumbers(int max){

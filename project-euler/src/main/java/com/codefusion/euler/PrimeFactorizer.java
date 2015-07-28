@@ -1,5 +1,8 @@
 package com.codefusion.euler;
 
+/**
+ * Solution for Project Euler problem 3.
+ */
 public class PrimeFactorizer {
 
     public long calculateMaxPrimeFactor(long subject){
