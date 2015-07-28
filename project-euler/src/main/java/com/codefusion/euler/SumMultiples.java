@@ -5,7 +5,9 @@ package com.codefusion.euler;
 public class SumMultiples {
 
     public long calculate(int exclusiveLimit, int... multiplesOf) {
-
+        if (multiplesOf.length == 0 || multiplesOf.length > 2){
+            throw new IllegalArgumentException("multiplesOf must be provided and a maximum of two is supported.");
+        }
         long sum = 0;
         long lessCommon = 0;
         --exclusiveLimit;

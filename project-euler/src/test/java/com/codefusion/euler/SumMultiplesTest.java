@@ -23,11 +23,11 @@ public class SumMultiplesTest {
                         calcExpected(15, 2),
                         calcExpected(8, 2),
                         calcExpected(10, 3, 5),
-                        calcExpected(1000000000, 3),
-                        calcExpected(1000000000, 5),
-                        calcExpected(1000000000, 4),
-                        calcExpected(1000000000, 3, 5),
-                        calcExpected(120, 3, 5, 7)
+                        calcExpected(100000000, 3),
+                        calcExpected(100000000, 5),
+                        calcExpected(100000000, 4),
+                        calcExpected(100000000, 3, 5),
+                        calcExpected(120, 3, 5)
         );
     }
 
